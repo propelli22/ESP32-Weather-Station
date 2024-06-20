@@ -17,7 +17,7 @@ async function haeData() {
         if (data == "") {
             document.getElementById('lampotila').innerHTML = "Ei dataa";
         } else {
-            document.getElementById('lampotila').innerText = data + "°C";
+            document.getElementById('lampotila').innerHTML = data + "°C";
         }
     } catch (error) {
         console.error(error);
